@@ -1,3 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+
+html *,
+ html *::after, 
+ html *::before {
+    box-sizing: inherit;
+}
+
 body {
     font-size: 1rem
 }
+
